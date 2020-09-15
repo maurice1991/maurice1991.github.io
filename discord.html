@@ -24,7 +24,7 @@
   </head>
   <body>
     <div class="bg-image">
-      <div id="container">
+      <div id="discord-container">
         <header>
           <div class="logo">
             <img
@@ -49,8 +49,28 @@
           <div id="banner-stats">2400 <span>Rating Battlegrounds</span></div>
           <div id="banner-stats">0/10 <span>Castle Nathria mythic</span></div>
         </div>
-        <div id="page-desc"><h2>DISCORD</h2></div>
-        <div id="main-content"></div>
+
+        <iframe
+          src="https://discordapp.com/widget?id=267709218167980033&theme=dark"
+          width="1000"
+          height="500"
+          allowtransparency="true"
+          frameborder="0"
+          sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"
+        ></iframe>
+
+        <script
+          src="https://cdn.jsdelivr.net/npm/@widgetbot/crate@3"
+          async
+          defer
+        >
+          new Crate({
+            server: '267709218167980033',
+            channel: '519911923542917120',
+            shard: 'https://cl2.widgetbot.io'
+          })
+        </script>
+
         <footer><a> Copyright &copy; 2020 Bleed </a></footer>
       </div>
     </div>

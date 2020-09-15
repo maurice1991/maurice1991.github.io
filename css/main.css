@@ -7,6 +7,10 @@ html {
   height: 100%;
 }
 
+* {
+  box-sizing: border-box;
+}
+
 body {
   min-height: 100%;
   padding: 1px;
@@ -165,4 +169,17 @@ footer {
 footer > a {
   float: right;
   padding: 5px;
+}
+
+iframe {
+  top: 35%;
+  margin-left: 5%;
+  position: absolute;
+}
+
+#discord-container {
+  margin: 2% 20% 2% 20%;
+  background-color: #f4f4f4;
+  height: 1200px;
+  position: relative;
 }
